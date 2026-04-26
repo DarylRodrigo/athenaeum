@@ -2,6 +2,12 @@
 
 ### API test entry
 
+Added via the API.
+
+## 2026-04-26 — SUN
+
+### API test entry
+
 This entry was added via the API.
 
 ## 2026-04-24 — THU

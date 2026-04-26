@@ -1,0 +1,38 @@
+spaces:
+  - id: ai-research
+    label: AI Research
+    accent: "oklch(0.62 0.13 28)"
+  - id: economics
+    label: Economics
+    accent: "oklch(0.55 0.10 145)"
+  - id: philosophy
+    label: Philosophy
+    accent: "oklch(0.50 0.11 270)"
+
+reading_spaces: []
+
+server:
+  capture_port: 7878
+  push_debounce_seconds: 300
+
+paths:
+  knowledge_db: knowledge-db/
+  inbox: knowledge-db/inbox/
+  thinking: knowledge-db/thinking/
+  sources: knowledge-db/sources/
+  wiki: knowledge-db/wiki/
+  projects: knowledge-db/projects/
+  meta: knowledge-db/meta/
+  dashboard: dashboard/
+
+llm:
+  bot_name: Athenaeum Bot
+  bot_email: bot@athenaeum.local
+  edge_kinds:
+    - supports
+    - contradicts
+    - extends
+    - questions
+    - instance_of
+    - supported_by
+    - relates_to

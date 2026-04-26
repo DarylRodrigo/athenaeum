@@ -1,1 +1,607 @@
-{}
+{
+  "version": 1,
+  "rebuilt_at": "2026-04-26T19:35:57.630859+00:00",
+  "nodes": {
+    "i-114230-twitter": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/114230_twitter.md",
+      "title": "Goodhart's Law and RLHF",
+      "created": "2026-04-26T11:42:30+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-193557-cli": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/193557_cli.md",
+      "title": "Final integration test",
+      "created": "2026-04-26T19:35:57.626353+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-101700-arxiv": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/101700_arxiv.md",
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "created": "2026-04-26T10:17:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-093000-voice": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/093000_voice.md",
+      "title": "Markets and LLMs",
+      "created": "2026-04-26T09:30:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-191446-test": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/191446_test.md",
+      "title": "Test capture from CLI",
+      "created": "2026-04-26T19:14:46.988213+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-190754-test": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/190754_test.md",
+      "title": "Test capture from CLI",
+      "created": "2026-04-26T19:07:54.766310+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-140000-substack": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/25/140000_substack.md",
+      "title": "Cowen on AI Safety Regulation",
+      "created": "2026-04-25T14:00:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "p-mechanism-spec": {
+      "type": "project",
+      "spaces": [
+        "economics",
+        "ai-research"
+      ],
+      "path": "knowledge-db/projects/mechanism-spec/README.md",
+      "title": "Mechanism Spec v0",
+      "created": "2026-04-18T10:00:00+00:00",
+      "outbound": [
+        {
+          "to": "t-mechanism-design-not-rlhf",
+          "kind": "supported_by"
+        },
+        {
+          "to": "w-rlhf",
+          "kind": "relates_to"
+        }
+      ],
+      "inbound": []
+    },
+    "meta-reading-list": {
+      "type": "meta",
+      "spaces": [],
+      "path": "knowledge-db/meta/reading-list.md",
+      "title": "Reading List",
+      "created": "2026-04-12T09:00:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "w-rlhf": {
+      "type": "wiki",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/wiki/methods/w-rlhf.md",
+      "title": "Reinforcement Learning from Human Feedback (RLHF)",
+      "created": "2026-04-18T14:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "p-mechanism-spec",
+          "kind": "relates_to"
+        }
+      ]
+    },
+    "w-proxy-target-collapse": {
+      "type": "wiki",
+      "spaces": [
+        "ai-research",
+        "philosophy",
+        "economics"
+      ],
+      "path": "knowledge-db/wiki/concepts/w-proxy-target-collapse.md",
+      "title": "Proxy–Target Collapse",
+      "created": "2026-04-18T10:00:00+00:00",
+      "outbound": [
+        {
+          "to": "w-goodharts-law",
+          "kind": "extends"
+        }
+      ],
+      "inbound": []
+    },
+    "w-goodharts-law": {
+      "type": "wiki",
+      "spaces": [
+        "philosophy",
+        "economics"
+      ],
+      "path": "knowledge-db/wiki/concepts/w-goodharts-law.md",
+      "title": "Goodhart's Law",
+      "created": "2026-04-14T08:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "w-proxy-target-collapse",
+          "kind": "extends"
+        }
+      ]
+    },
+    "t-markets-aggregate-priors": {
+      "type": "thought",
+      "spaces": [
+        "ai-research",
+        "economics"
+      ],
+      "path": "knowledge-db/thinking/ai-research/t-markets-aggregate-priors.md",
+      "title": "Markets and language models both aggregate priors",
+      "created": "2026-04-23T11:00:00+00:00",
+      "outbound": [
+        {
+          "to": "m-proxy-not-target",
+          "kind": "extends"
+        }
+      ],
+      "inbound": []
+    },
+    "t-rlhf-reward-hacking": {
+      "type": "thought",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/thinking/ai-research/t-rlhf-reward-hacking.md",
+      "title": "RLHF reward hacking is not an alignment failure — it's a measurement failure",
+      "created": "2026-04-20T10:00:00+00:00",
+      "outbound": [
+        {
+          "to": "s-2210-10760",
+          "kind": "supported_by"
+        },
+        {
+          "to": "m-proxy-not-target",
+          "kind": "instance_of"
+        }
+      ],
+      "inbound": [
+        {
+          "from": "t-constitutional-ai-proxy",
+          "kind": "extends"
+        },
+        {
+          "from": "m-proxy-not-target",
+          "kind": "supports"
+        },
+        {
+          "from": "t-goodhart-universal",
+          "kind": "extends"
+        }
+      ]
+    },
+    "t-constitutional-ai-proxy": {
+      "type": "thought",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/thinking/ai-research/t-constitutional-ai-proxy.md",
+      "title": "Constitutional AI as proxy specification",
+      "created": "2026-04-22T08:15:00+00:00",
+      "outbound": [
+        {
+          "to": "t-rlhf-reward-hacking",
+          "kind": "extends"
+        },
+        {
+          "to": "s-anthropic-cai",
+          "kind": "supported_by"
+        }
+      ],
+      "inbound": []
+    },
+    "m-proxy-not-target": {
+      "type": "meta-idea",
+      "spaces": [
+        "ai-research",
+        "philosophy",
+        "economics"
+      ],
+      "path": "knowledge-db/thinking/meta/m-proxy-not-target.md",
+      "title": "The proxy is not the target",
+      "created": "2026-04-15T10:00:00+00:00",
+      "outbound": [
+        {
+          "to": "t-goodhart-universal",
+          "kind": "supports"
+        },
+        {
+          "to": "t-rlhf-reward-hacking",
+          "kind": "supports"
+        },
+        {
+          "to": "t-mechanism-design-not-rlhf",
+          "kind": "supports"
+        }
+      ],
+      "inbound": [
+        {
+          "from": "t-markets-aggregate-priors",
+          "kind": "extends"
+        },
+        {
+          "from": "t-rlhf-reward-hacking",
+          "kind": "instance_of"
+        },
+        {
+          "from": "t-goodhart-universal",
+          "kind": "supports"
+        },
+        {
+          "from": "t-mechanism-design-not-rlhf",
+          "kind": "instance_of"
+        }
+      ]
+    },
+    "t-legibility-control": {
+      "type": "thought",
+      "spaces": [
+        "philosophy"
+      ],
+      "path": "knowledge-db/thinking/philosophy/t-legibility-control.md",
+      "title": "Legibility is a precondition for both control and care",
+      "created": "2026-04-05T12:00:00+00:00",
+      "outbound": [
+        {
+          "to": "s-scott-seeing-like-state",
+          "kind": "supported_by"
+        },
+        {
+          "to": "t-goodhart-universal",
+          "kind": "extends"
+        }
+      ],
+      "inbound": []
+    },
+    "t-goodhart-universal": {
+      "type": "thought",
+      "spaces": [
+        "philosophy",
+        "ai-research",
+        "economics"
+      ],
+      "path": "knowledge-db/thinking/philosophy/t-goodhart-universal.md",
+      "title": "Goodhart's Law as a universal constraint on designed systems",
+      "created": "2026-04-12T09:30:00+00:00",
+      "outbound": [
+        {
+          "to": "s-strathern-1997",
+          "kind": "supported_by"
+        },
+        {
+          "to": "t-rlhf-reward-hacking",
+          "kind": "extends"
+        },
+        {
+          "to": "m-proxy-not-target",
+          "kind": "supports"
+        }
+      ],
+      "inbound": [
+        {
+          "from": "m-proxy-not-target",
+          "kind": "supports"
+        },
+        {
+          "from": "t-legibility-control",
+          "kind": "extends"
+        },
+        {
+          "from": "t-proxy-target-collapse-rate",
+          "kind": "extends"
+        }
+      ]
+    },
+    "t-mechanism-design-not-rlhf": {
+      "type": "thought",
+      "spaces": [
+        "economics",
+        "ai-research"
+      ],
+      "path": "knowledge-db/thinking/economics/t-mechanism-design-not-rlhf.md",
+      "title": "Mechanism design assumes adversarial participants — RLHF doesn't",
+      "created": "2026-04-18T14:30:00+00:00",
+      "outbound": [
+        {
+          "to": "s-hurwicz-maskin",
+          "kind": "supported_by"
+        },
+        {
+          "to": "m-proxy-not-target",
+          "kind": "instance_of"
+        }
+      ],
+      "inbound": [
+        {
+          "from": "p-mechanism-spec",
+          "kind": "supported_by"
+        },
+        {
+          "from": "m-proxy-not-target",
+          "kind": "supports"
+        }
+      ]
+    },
+    "t-proxy-target-collapse-rate": {
+      "type": "thought",
+      "spaces": [
+        "economics"
+      ],
+      "path": "knowledge-db/thinking/economics/t-proxy-target-collapse-rate.md",
+      "title": "Updated thought",
+      "created": "2026-04-24T16:00:00+00:00",
+      "outbound": [
+        {
+          "to": "t-goodhart-universal",
+          "kind": "extends"
+        }
+      ],
+      "inbound": []
+    },
+    "s-2210-10760": {
+      "type": "source",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/sources/papers/s-2210-10760.md",
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "created": "2026-04-20T10:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-rlhf-reward-hacking",
+          "kind": "supported_by"
+        }
+      ]
+    },
+    "s-strathern-1997": {
+      "type": "source",
+      "spaces": [
+        "philosophy"
+      ],
+      "path": "knowledge-db/sources/papers/s-strathern-1997.md",
+      "title": "Improving Ratings: Audit in the British University System",
+      "created": "2026-04-12T09:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-goodhart-universal",
+          "kind": "supported_by"
+        }
+      ]
+    },
+    "s-hurwicz-maskin": {
+      "type": "source",
+      "spaces": [
+        "economics"
+      ],
+      "path": "knowledge-db/sources/papers/s-hurwicz-maskin.md",
+      "title": "Mechanism Design Theory",
+      "created": "2026-04-18T14:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-mechanism-design-not-rlhf",
+          "kind": "supported_by"
+        }
+      ]
+    },
+    "s-anthropic-cai": {
+      "type": "source",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/sources/papers/s-anthropic-cai.md",
+      "title": "Constitutional AI: Harmlessness from AI Feedback",
+      "created": "2026-04-22T08:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-constitutional-ai-proxy",
+          "kind": "supported_by"
+        }
+      ]
+    },
+    "s-cowen-stubborn-metrics": {
+      "type": "source",
+      "spaces": [
+        "economics"
+      ],
+      "path": "knowledge-db/sources/articles/s-cowen-stubborn-metrics.md",
+      "title": "The Political Economy of AI Safety Regulation",
+      "created": "2026-04-24T09:00:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "s-scott-seeing-like-state": {
+      "type": "source",
+      "spaces": [
+        "philosophy"
+      ],
+      "path": "knowledge-db/sources/books/s-scott-seeing-like-state.md",
+      "title": "Seeing Like a State",
+      "created": "2026-04-05T12:00:00+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-legibility-control",
+          "kind": "supported_by"
+        }
+      ]
+    },
+    "s-kanjun-goodhart-rlhf": {
+      "type": "source",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/sources/tweets/s-kanjun-goodhart-rlhf.md",
+      "title": "Goodhart's Law and RLHF tweet",
+      "created": "2026-04-26T11:42:00+00:00",
+      "outbound": [],
+      "inbound": []
+    }
+  },
+  "edges_by_kind": {
+    "supported_by": [
+      [
+        "p-mechanism-spec",
+        "t-mechanism-design-not-rlhf"
+      ],
+      [
+        "t-rlhf-reward-hacking",
+        "s-2210-10760"
+      ],
+      [
+        "t-constitutional-ai-proxy",
+        "s-anthropic-cai"
+      ],
+      [
+        "t-legibility-control",
+        "s-scott-seeing-like-state"
+      ],
+      [
+        "t-goodhart-universal",
+        "s-strathern-1997"
+      ],
+      [
+        "t-mechanism-design-not-rlhf",
+        "s-hurwicz-maskin"
+      ]
+    ],
+    "relates_to": [
+      [
+        "p-mechanism-spec",
+        "w-rlhf"
+      ]
+    ],
+    "extends": [
+      [
+        "w-proxy-target-collapse",
+        "w-goodharts-law"
+      ],
+      [
+        "t-markets-aggregate-priors",
+        "m-proxy-not-target"
+      ],
+      [
+        "t-constitutional-ai-proxy",
+        "t-rlhf-reward-hacking"
+      ],
+      [
+        "t-legibility-control",
+        "t-goodhart-universal"
+      ],
+      [
+        "t-goodhart-universal",
+        "t-rlhf-reward-hacking"
+      ],
+      [
+        "t-proxy-target-collapse-rate",
+        "t-goodhart-universal"
+      ]
+    ],
+    "instance_of": [
+      [
+        "t-rlhf-reward-hacking",
+        "m-proxy-not-target"
+      ],
+      [
+        "t-mechanism-design-not-rlhf",
+        "m-proxy-not-target"
+      ]
+    ],
+    "supports": [
+      [
+        "m-proxy-not-target",
+        "t-goodhart-universal"
+      ],
+      [
+        "m-proxy-not-target",
+        "t-rlhf-reward-hacking"
+      ],
+      [
+        "m-proxy-not-target",
+        "t-mechanism-design-not-rlhf"
+      ],
+      [
+        "t-goodhart-universal",
+        "m-proxy-not-target"
+      ]
+    ]
+  },
+  "spaces": {
+    "economics": [
+      "p-mechanism-spec",
+      "w-proxy-target-collapse",
+      "w-goodharts-law",
+      "t-markets-aggregate-priors",
+      "m-proxy-not-target",
+      "t-goodhart-universal",
+      "t-mechanism-design-not-rlhf",
+      "t-proxy-target-collapse-rate",
+      "s-hurwicz-maskin",
+      "s-cowen-stubborn-metrics"
+    ],
+    "ai-research": [
+      "p-mechanism-spec",
+      "w-rlhf",
+      "w-proxy-target-collapse",
+      "t-markets-aggregate-priors",
+      "t-rlhf-reward-hacking",
+      "t-constitutional-ai-proxy",
+      "m-proxy-not-target",
+      "t-goodhart-universal",
+      "t-mechanism-design-not-rlhf",
+      "s-2210-10760",
+      "s-anthropic-cai",
+      "s-kanjun-goodhart-rlhf"
+    ],
+    "philosophy": [
+      "w-proxy-target-collapse",
+      "w-goodharts-law",
+      "m-proxy-not-target",
+      "t-legibility-control",
+      "t-goodhart-universal",
+      "s-strathern-1997",
+      "s-scott-seeing-like-state"
+    ]
+  },
+  "orphans": [
+    "i-114230-twitter",
+    "i-193557-cli",
+    "i-101700-arxiv",
+    "i-093000-voice",
+    "i-191446-test",
+    "i-190754-test",
+    "i-140000-substack",
+    "meta-reading-list",
+    "s-cowen-stubborn-metrics",
+    "s-kanjun-goodhart-rlhf"
+  ]
+}

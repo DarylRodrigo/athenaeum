@@ -2,6 +2,8 @@
 
 ## 2026-04-26
 
+- **19:35** — capture: Captured from cli
+
 - **11:42** — capture: Captured from twitter (@kanjun on Goodhart + RLHF)
 - **10:17** — capture: Captured from arxiv (Gao et al. scaling laws)
 - **09:30** — capture: Captured voice memo (markets and LLMs)

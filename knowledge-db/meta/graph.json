@@ -1,7 +1,16 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-04-26T19:35:57.630859+00:00",
+  "rebuilt_at": "2026-04-26T19:37:56.836266+00:00",
   "nodes": {
+    "i-193756-final": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/04/26/193756_final.md",
+      "title": "Push debouncer test",
+      "created": "2026-04-26T19:37:56.830646+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-114230-twitter": {
       "type": "inbox",
       "spaces": [],
@@ -593,6 +602,7 @@
     ]
   },
   "orphans": [
+    "i-193756-final",
     "i-114230-twitter",
     "i-193557-cli",
     "i-101700-arxiv",

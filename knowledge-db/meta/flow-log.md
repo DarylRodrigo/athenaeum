@@ -2,6 +2,8 @@
 
 ## 2026-04-26
 
+- **19:37** — capture: Captured from final
+
 - **19:35** — capture: Captured from cli
 
 - **11:42** — capture: Captured from twitter (@kanjun on Goodhart + RLHF)

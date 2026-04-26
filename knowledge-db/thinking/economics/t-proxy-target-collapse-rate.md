@@ -8,11 +8,11 @@ spaces:
 - economics
 status: developing
 tags:
-- updated-via-api
+- updated
 type: thought
-updated: '2026-04-26T19:07:54.841065+00:00'
+updated: '2026-04-26T19:14:47.179849+00:00'
 ---
 
-# The proxy-target collapse is faster in tight feedback loops
+# Updated thought
 
-Updated body via API.
+Updated via API.

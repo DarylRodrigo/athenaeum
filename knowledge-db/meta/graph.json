@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-04-26T19:37:56.836266+00:00",
+  "rebuilt_at": "2026-05-09T16:49:04.162922+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -71,6 +71,15 @@
       "path": "knowledge-db/inbox/2026/04/25/140000_substack.md",
       "title": "Cowen on AI Safety Regulation",
       "created": "2026-04-25T14:00:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-164904-cli": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/09/164904_cli.md",
+      "title": "CLI smoke test capture",
+      "created": "2026-05-09T16:49:04.151040+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -610,6 +619,7 @@
     "i-191446-test",
     "i-190754-test",
     "i-140000-substack",
+    "i-164904-cli",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf"

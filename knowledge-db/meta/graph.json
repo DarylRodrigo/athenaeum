@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:42:56.503619+00:00",
+  "rebuilt_at": "2026-05-09T17:53:12.894004+00:00",
   "nodes": {
     "i-101700-arxiv": {
       "type": "inbox",
@@ -8,24 +8,6 @@
       "path": "knowledge-db/inbox/2026/04/26/101700_arxiv.md",
       "title": "Scaling Laws for Reward Model Overoptimization",
       "created": "2026-04-26T10:17:00+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-093000-voice": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/26/093000_voice.md",
-      "title": "Markets and LLMs",
-      "created": "2026-04-26T09:30:00+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-140000-substack": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/25/140000_substack.md",
-      "title": "Cowen on AI Safety Regulation",
-      "created": "2026-04-25T14:00:00+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -47,12 +29,12 @@
       "outbound": [],
       "inbound": []
     },
-    "i-172524-test": {
+    "i-175312-arxiv": {
       "type": "inbox",
       "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/172524_test.md",
-      "title": "empty-body-test",
-      "created": "2026-05-09T17:25:24.701263+00:00",
+      "path": "knowledge-db/inbox/2026/05/09/175312_arxiv.md",
+      "title": "Worth a read: https://arxiv.org/abs/2509.99999",
+      "created": "2026-05-09T17:53:12.887534+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -62,15 +44,6 @@
       "path": "knowledge-db/inbox/2026/05/09/174138_substack.md",
       "title": "Tyler Cowen on the decay rate of metrics:",
       "created": "2026-05-09T17:41:38.554564+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-173155-test": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/173155_test.md",
-      "title": "empty-test",
-      "created": "2026-05-09T17:31:55.818634+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -815,13 +788,10 @@
   },
   "orphans": [
     "i-101700-arxiv",
-    "i-093000-voice",
-    "i-140000-substack",
     "i-170005-substack",
     "i-173858-twitter",
-    "i-172524-test",
+    "i-175312-arxiv",
     "i-174138-substack",
-    "i-173155-test",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",

@@ -1,13 +1,13 @@
 ---
-captured_at: '2026-05-09T17:25:24.319869+00:00'
 created: '2026-05-09T17:25:24.319869+00:00'
-edges: []
-id: i-172524-twitter
-raw_url: https://x.com/example/status/999
-source: twitter
-spaces: []
+id: s-172524-twitter
+ingested_at: '2026-05-09T17:25:24.319869+00:00'
+kind: note
+spaces:
+- ai-research
 tags: []
-type: inbox
+type: source
+url: https://x.com/example/status/999
 ---
 
 # Reward models trained on a proxy of human preference will diverge from the targe

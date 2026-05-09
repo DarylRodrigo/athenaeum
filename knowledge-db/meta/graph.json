@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:25:24.325090+00:00",
+  "rebuilt_at": "2026-05-09T17:25:24.539849+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -89,15 +89,6 @@
       "path": "knowledge-db/inbox/2026/05/09/164904_agent.md",
       "title": "batch one",
       "created": "2026-05-09T16:49:04.996082+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-172524-twitter": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/172524_twitter.md",
-      "title": "Reward models trained on a proxy of human preference will diverge from the targe",
-      "created": "2026-05-09T17:25:24.319869+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -211,6 +202,22 @@
         {
           "to": "t-rlhf-reward-hacking",
           "kind": "extends"
+        }
+      ],
+      "inbound": []
+    },
+    "t-reward-hacking-is-measurement-failure-not-alignment-failure": {
+      "type": "thought",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/thinking/ai-research/t-reward-hacking-is-measurement-failure-not-alignment-failure.md",
+      "title": "Reward hacking is measurement failure not alignment failure",
+      "created": "2026-05-09T17:25:24.535822+00:00",
+      "outbound": [
+        {
+          "to": "s-172524-twitter",
+          "kind": "supported_by"
         }
       ],
       "inbound": []
@@ -533,6 +540,22 @@
       "outbound": [],
       "inbound": []
     },
+    "s-172524-twitter": {
+      "type": "source",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/sources/notes/s-172524-twitter.md",
+      "title": "Reward models trained on a proxy of human preference will diverge from the targe",
+      "created": "2026-05-09T17:25:24.319869+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-reward-hacking-is-measurement-failure-not-alignment-failure",
+          "kind": "supported_by"
+        }
+      ]
+    },
     "s-114230-twitter": {
       "type": "source",
       "spaces": [
@@ -572,6 +595,10 @@
       [
         "p-mechanism-spec",
         "t-mechanism-design-not-rlhf"
+      ],
+      [
+        "t-reward-hacking-is-measurement-failure-not-alignment-failure",
+        "s-172524-twitter"
       ],
       [
         "t-rlhf-reward-hacking",
@@ -678,6 +705,7 @@
       "w-proxy-target-collapse",
       "t-markets-aggregate-priors",
       "t-smoke-test-thought",
+      "t-reward-hacking-is-measurement-failure-not-alignment-failure",
       "t-rlhf-reward-hacking",
       "t-constitutional-ai-proxy",
       "m-proxy-not-target",
@@ -687,6 +715,7 @@
       "s-anthropic-cai",
       "s-kanjun-goodhart-rlhf",
       "s-165122-test",
+      "s-172524-twitter",
       "s-114230-twitter",
       "s-170458-twitter",
       "s-165233-test"
@@ -712,7 +741,6 @@
     "i-170458-test",
     "i-170005-substack",
     "i-164904-agent",
-    "i-172524-twitter",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",

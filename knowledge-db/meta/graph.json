@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T16:49:05.157479+00:00",
+  "rebuilt_at": "2026-05-09T16:49:05.710324+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -78,8 +78,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/09/164905_agent.md",
-      "title": "batch two",
-      "created": "2026-05-09T16:49:05.148934+00:00",
+      "title": "from a bot agent",
+      "created": "2026-05-09T16:49:05.704400+00:00",
       "outbound": [],
       "inbound": []
     },

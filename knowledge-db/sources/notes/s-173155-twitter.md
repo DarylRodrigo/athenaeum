@@ -1,13 +1,13 @@
 ---
-captured_at: '2026-05-09T17:31:55.092347+00:00'
 created: '2026-05-09T17:31:55.092347+00:00'
-edges: []
-id: i-173155-twitter
-raw_url: https://x.com/example/multi
-source: twitter
-spaces: []
+id: s-173155-twitter
+ingested_at: '2026-05-09T17:31:55.092347+00:00'
+kind: note
+spaces:
+- ai-research
 tags: []
-type: inbox
+type: source
+url: https://x.com/example/multi
 ---
 
 # A capture that sparks multiple distinct thoughts across spaces

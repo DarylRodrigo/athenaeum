@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:31:55.493468+00:00",
+  "rebuilt_at": "2026-05-09T17:31:55.659435+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -62,15 +62,6 @@
       "path": "knowledge-db/inbox/2026/04/25/140000_substack.md",
       "title": "Cowen on AI Safety Regulation",
       "created": "2026-04-25T14:00:00+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-173155-voice": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/173155_voice.md",
-      "title": "single thought capture",
-      "created": "2026-05-09T17:31:55.489099+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -415,6 +406,22 @@
         }
       ]
     },
+    "t-single-thought-from-voice-memo": {
+      "type": "thought",
+      "spaces": [
+        "philosophy"
+      ],
+      "path": "knowledge-db/thinking/philosophy/t-single-thought-from-voice-memo.md",
+      "title": "Single thought from voice memo",
+      "created": "2026-05-09T17:31:55.654751+00:00",
+      "outbound": [
+        {
+          "to": "s-173155-voice",
+          "kind": "supported_by"
+        }
+      ],
+      "inbound": []
+    },
     "t-mechanism-design-not-rlhf": {
       "type": "thought",
       "spaces": [
@@ -637,6 +644,22 @@
       "outbound": [],
       "inbound": []
     },
+    "s-173155-voice": {
+      "type": "source",
+      "spaces": [
+        "philosophy"
+      ],
+      "path": "knowledge-db/sources/notes/s-173155-voice.md",
+      "title": "single thought capture",
+      "created": "2026-05-09T17:31:55.489099+00:00",
+      "outbound": [],
+      "inbound": [
+        {
+          "from": "t-single-thought-from-voice-memo",
+          "kind": "supported_by"
+        }
+      ]
+    },
     "s-170458-twitter": {
       "type": "source",
       "spaces": [
@@ -689,6 +712,10 @@
       [
         "t-goodhart-universal",
         "s-strathern-1997"
+      ],
+      [
+        "t-single-thought-from-voice-memo",
+        "s-173155-voice"
       ],
       [
         "t-mechanism-design-not-rlhf",
@@ -807,8 +834,10 @@
       "m-proxy-not-target",
       "t-legibility-control",
       "t-goodhart-universal",
+      "t-single-thought-from-voice-memo",
       "s-strathern-1997",
-      "s-scott-seeing-like-state"
+      "s-scott-seeing-like-state",
+      "s-173155-voice"
     ]
   },
   "orphans": [
@@ -819,7 +848,6 @@
     "i-191446-test",
     "i-190754-test",
     "i-140000-substack",
-    "i-173155-voice",
     "i-170458-test",
     "i-170005-substack",
     "i-164904-agent",

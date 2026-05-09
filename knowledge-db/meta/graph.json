@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T16:52:33.596055+00:00",
+  "rebuilt_at": "2026-05-09T17:00:05.783660+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -71,6 +71,15 @@
       "path": "knowledge-db/inbox/2026/04/25/140000_substack.md",
       "title": "Cowen on AI Safety Regulation",
       "created": "2026-04-25T14:00:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-170005-substack": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/09/170005_substack.md",
+      "title": "Sample article from a real URL",
+      "created": "2026-05-09T17:00:05.774048+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -677,6 +686,7 @@
     "i-191446-test",
     "i-190754-test",
     "i-140000-substack",
+    "i-170005-substack",
     "i-164905-agent",
     "i-164904-agent",
     "meta-reading-list",

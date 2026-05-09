@@ -1,5 +1,7 @@
 ## 2026-05-09
 
+- **17:00** — capture: Captured from substack
+
 - **16:52** — route: Routed i-165233-test → s-165233-test (ai-research)
 
 - **16:52** — capture: Captured from test

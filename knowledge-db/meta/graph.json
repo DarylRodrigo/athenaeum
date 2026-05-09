@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:04:58.744225+00:00",
+  "rebuilt_at": "2026-05-09T17:09:22.537212+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -8,15 +8,6 @@
       "path": "knowledge-db/inbox/2026/04/26/193756_final.md",
       "title": "Push debouncer test",
       "created": "2026-04-26T19:37:56.830646+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-114230-twitter": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/26/114230_twitter.md",
-      "title": "Goodhart's Law and RLHF",
-      "created": "2026-04-26T11:42:30+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -533,6 +524,17 @@
       "outbound": [],
       "inbound": []
     },
+    "s-114230-twitter": {
+      "type": "source",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/sources/notes/s-114230-twitter.md",
+      "title": "Goodhart's Law and RLHF",
+      "created": "2026-04-26T11:42:30+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "s-170458-twitter": {
       "type": "source",
       "spaces": [
@@ -676,6 +678,7 @@
       "s-anthropic-cai",
       "s-kanjun-goodhart-rlhf",
       "s-165122-test",
+      "s-114230-twitter",
       "s-170458-twitter",
       "s-165233-test"
     ],
@@ -691,7 +694,6 @@
   },
   "orphans": [
     "i-193756-final",
-    "i-114230-twitter",
     "i-193557-cli",
     "i-101700-arxiv",
     "i-093000-voice",
@@ -705,6 +707,7 @@
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
     "s-165122-test",
+    "s-114230-twitter",
     "s-170458-twitter",
     "s-165233-test"
   ]

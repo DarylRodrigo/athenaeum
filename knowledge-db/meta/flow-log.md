@@ -1,5 +1,7 @@
 ## 2026-05-09
 
+- **17:04** — route: Routed i-170458-twitter → s-170458-twitter (ai-research)
+
 - **17:04** — capture: Captured from twitter
 
 - **17:00** — capture: Captured from substack

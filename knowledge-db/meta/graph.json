@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:25:24.705527+00:00",
+  "rebuilt_at": "2026-05-09T17:31:55.099518+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -98,6 +98,15 @@
       "path": "knowledge-db/inbox/2026/05/09/172524_test.md",
       "title": "empty-body-test",
       "created": "2026-05-09T17:25:24.701263+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-173155-twitter": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/09/173155_twitter.md",
+      "title": "A capture that sparks multiple distinct thoughts across spaces",
+      "created": "2026-05-09T17:31:55.092347+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -751,6 +760,7 @@
     "i-170005-substack",
     "i-164904-agent",
     "i-172524-test",
+    "i-173155-twitter",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",

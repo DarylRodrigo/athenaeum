@@ -1,5 +1,7 @@
 ## 2026-05-09
 
+- **17:31** — capture: Captured from twitter
+
 - **17:25** — capture: Captured from test
 
 - **17:25** — develop: Developed i-172524-twitter → t-reward-hacking-is-measurement-failure-not-alignment-failure (source: s-172524-twitter)

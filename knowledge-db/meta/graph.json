@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:38:58.773917+00:00",
+  "rebuilt_at": "2026-05-09T17:41:38.567100+00:00",
   "nodes": {
     "i-101700-arxiv": {
       "type": "inbox",
@@ -53,6 +53,15 @@
       "path": "knowledge-db/inbox/2026/05/09/172524_test.md",
       "title": "empty-body-test",
       "created": "2026-05-09T17:25:24.701263+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-174138-substack": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/09/174138_substack.md",
+      "title": "Tyler Cowen on the decay rate of metrics:",
+      "created": "2026-05-09T17:41:38.554564+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -811,6 +820,7 @@
     "i-170005-substack",
     "i-173858-twitter",
     "i-172524-test",
+    "i-174138-substack",
     "i-173155-test",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",

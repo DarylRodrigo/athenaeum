@@ -1,5 +1,7 @@
 ## 2026-05-09
 
+- **17:41** — capture: Captured from substack
+
 - **17:38** — capture: Captured from twitter
 
 - **17:35** — archive: Archived i-170458-test

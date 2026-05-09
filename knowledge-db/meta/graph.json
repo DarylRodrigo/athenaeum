@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T16:49:04.683780+00:00",
+  "rebuilt_at": "2026-05-09T16:49:05.007162+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -78,8 +78,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/09/164904_agent.md",
-      "title": "From stdin JSON",
-      "created": "2026-05-09T16:49:04.677867+00:00",
+      "title": "batch one",
+      "created": "2026-05-09T16:49:04.996082+00:00",
       "outbound": [],
       "inbound": []
     },

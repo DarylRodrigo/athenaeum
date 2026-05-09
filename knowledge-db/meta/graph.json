@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T16:52:33.272884+00:00",
+  "rebuilt_at": "2026-05-09T16:52:33.596055+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -89,15 +89,6 @@
       "path": "knowledge-db/inbox/2026/05/09/164904_agent.md",
       "title": "batch one",
       "created": "2026-05-09T16:49:04.996082+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-165233-test": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/165233_test.md",
-      "title": "Will be routed (take 2)",
-      "created": "2026-05-09T16:52:33.264697+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -532,6 +523,17 @@
       "created": "2026-05-09T16:51:22.205807+00:00",
       "outbound": [],
       "inbound": []
+    },
+    "s-165233-test": {
+      "type": "source",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/sources/notes/s-165233-test.md",
+      "title": "Will be routed (take 2)",
+      "created": "2026-05-09T16:52:33.264697+00:00",
+      "outbound": [],
+      "inbound": []
     }
   },
   "edges_by_kind": {
@@ -653,7 +655,8 @@
       "s-2210-10760",
       "s-anthropic-cai",
       "s-kanjun-goodhart-rlhf",
-      "s-165122-test"
+      "s-165122-test",
+      "s-165233-test"
     ],
     "philosophy": [
       "w-proxy-target-collapse",
@@ -676,10 +679,10 @@
     "i-140000-substack",
     "i-164905-agent",
     "i-164904-agent",
-    "i-165233-test",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
-    "s-165122-test"
+    "s-165122-test",
+    "s-165233-test"
   ]
 }

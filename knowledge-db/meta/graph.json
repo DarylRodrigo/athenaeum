@@ -1,25 +1,7 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:31:55.823603+00:00",
+  "rebuilt_at": "2026-05-09T17:38:58.773917+00:00",
   "nodes": {
-    "i-193756-final": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/26/193756_final.md",
-      "title": "Push debouncer test",
-      "created": "2026-04-26T19:37:56.830646+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-193557-cli": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/26/193557_cli.md",
-      "title": "Final integration test",
-      "created": "2026-04-26T19:35:57.626353+00:00",
-      "outbound": [],
-      "inbound": []
-    },
     "i-101700-arxiv": {
       "type": "inbox",
       "spaces": [],
@@ -38,39 +20,12 @@
       "outbound": [],
       "inbound": []
     },
-    "i-191446-test": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/26/191446_test.md",
-      "title": "Test capture from CLI",
-      "created": "2026-04-26T19:14:46.988213+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-190754-test": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/04/26/190754_test.md",
-      "title": "Test capture from CLI",
-      "created": "2026-04-26T19:07:54.766310+00:00",
-      "outbound": [],
-      "inbound": []
-    },
     "i-140000-substack": {
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/04/25/140000_substack.md",
       "title": "Cowen on AI Safety Regulation",
       "created": "2026-04-25T14:00:00+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-170458-test": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/170458_test.md",
-      "title": "Bad-space test",
-      "created": "2026-05-09T17:04:58.740172+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -83,12 +38,12 @@
       "outbound": [],
       "inbound": []
     },
-    "i-164904-agent": {
+    "i-173858-twitter": {
       "type": "inbox",
       "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/164904_agent.md",
-      "title": "batch one",
-      "created": "2026-05-09T16:49:04.996082+00:00",
+      "path": "knowledge-db/inbox/2026/05/09/173858_twitter.md",
+      "title": "Tiptap editor test capture",
+      "created": "2026-05-09T17:38:58.768067+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -850,16 +805,11 @@
     ]
   },
   "orphans": [
-    "i-193756-final",
-    "i-193557-cli",
     "i-101700-arxiv",
     "i-093000-voice",
-    "i-191446-test",
-    "i-190754-test",
     "i-140000-substack",
-    "i-170458-test",
     "i-170005-substack",
-    "i-164904-agent",
+    "i-173858-twitter",
     "i-172524-test",
     "i-173155-test",
     "meta-reading-list",

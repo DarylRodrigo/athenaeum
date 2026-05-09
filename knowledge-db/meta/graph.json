@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:53:12.894004+00:00",
+  "rebuilt_at": "2026-05-09T17:57:52.319836+00:00",
   "nodes": {
     "i-101700-arxiv": {
       "type": "inbox",
@@ -8,6 +8,15 @@
       "path": "knowledge-db/inbox/2026/04/26/101700_arxiv.md",
       "title": "Scaling Laws for Reward Model Overoptimization",
       "created": "2026-04-26T10:17:00+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-175752-article": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/09/175752_article.md",
+      "title": "Some random thought I just had:\\",
+      "created": "2026-05-09T17:57:52.297023+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -788,6 +797,7 @@
   },
   "orphans": [
     "i-101700-arxiv",
+    "i-175752-article",
     "i-170005-substack",
     "i-173858-twitter",
     "i-175312-arxiv",

@@ -1,5 +1,7 @@
 ## 2026-05-09
 
+- **17:57** — capture: Captured from article
+
 - **17:53** — capture: Captured from arxiv
 
 - **17:44** — archive: Archived i-140000-substack

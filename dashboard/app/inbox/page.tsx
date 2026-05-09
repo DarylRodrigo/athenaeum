@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { apiFetch } from "@/lib/api";
 import type { NodeSummary } from "@/lib/types";
+import { QuickCaptureModal } from "@/components/capture/QuickCaptureModal";
 
 function relativeTime(iso: string | null): string {
   if (!iso) return "";
@@ -38,10 +39,15 @@ export default function InboxPage() {
   const [sideVisible, setSideVisible] = useState(true);
   const [busyId, setBusyId] = useState<string | null>(null);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [captureOpen, setCaptureOpen] = useState(false);
 
-  useEffect(() => {
+  const refreshItems = useCallback(() => {
     apiFetch<NodeSummary[]>("/inbox").then(setItems).catch(() => {});
   }, []);
+
+  useEffect(() => {
+    refreshItems();
+  }, [refreshItems]);
 
   const filtered = filter === "all" ? items : items.filter((i) => {
     if (filter === "today") {
@@ -80,7 +86,12 @@ export default function InboxPage() {
           <div className="page-sub">A buffer, not a destination. Read each capture, develop a thought from it, or archive.</div>
         </div>
         <div style={{ display: "flex", gap: 8 }}>
-          <button className="btn primary"><span className="glyph">+</span> Quick capture</button>
+          <button
+            className="btn primary"
+            onClick={() => setCaptureOpen(true)}
+          >
+            <span className="glyph">+</span> Quick capture
+          </button>
         </div>
       </div>
 
@@ -183,6 +194,12 @@ export default function InboxPage() {
           </aside>
         )}
       </div>
+
+      <QuickCaptureModal
+        open={captureOpen}
+        onClose={() => setCaptureOpen(false)}
+        onCaptured={refreshItems}
+      />
     </div>
   );
 }

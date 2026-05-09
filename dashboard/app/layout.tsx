@@ -47,6 +47,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   });
   const [counts, setCounts] = useState({ inbox: 0, thinking: 0, wiki: 0, project: 0 });
   const [spaces, setSpaces] = useState<Space[]>([]);
+  const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
 
   const setTweak = useCallback((key: string, value: string) => {
     setTweaks(prev => ({ ...prev, [key]: value }));
@@ -89,27 +90,32 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, []);
 
   // Page label for topbar
+  const isInboxDigest = /^\/inbox\/[^/]+/.test(pathname);
   const pageLabel = pathname.startsWith("/thinking/focus") ? "02b Thinking Space \u2014 Focus"
     : pathname.startsWith("/thinking") ? "02 Thinking Space"
     : pathname.startsWith("/wiki") ? "03 Wiki"
     : pathname.startsWith("/project") ? "04 Project"
+    : isInboxDigest ? "01 Inbox \u2014 Digest"
     : "01 Inbox";
 
   const where = pathname.startsWith("/thinking/focus") ? "Focus mode \u00b7 editing thought"
     : pathname.startsWith("/thinking") ? "Cross-space view"
     : pathname.startsWith("/wiki") ? "Concepts"
     : pathname.startsWith("/project") ? "Mechanism Spec"
+    : isInboxDigest ? "reading & developing"
     : null;
 
   return (
     <html lang="en" className={`${spectral.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
       <body data-aesthetic="warm" data-density="balanced" data-focus="0">
         <CmdKContext.Provider value={{ open: () => setCmdOpen(true) }}>
-          <div className="app">
+          <div className={"app" + (sidebarCollapsed ? " sidebar-collapsed" : "")}>
             <Sidebar
               counts={counts}
               spaces={spaces}
               pathname={pathname}
+              collapsed={sidebarCollapsed}
+              onToggle={() => setSidebarCollapsed((c) => !c)}
             />
             <main className="main" data-screen-label={pageLabel}>
               <Topbar page={pageLabel} where={where} />

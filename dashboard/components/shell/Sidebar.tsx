@@ -9,10 +9,12 @@ interface SidebarProps {
   counts: { inbox: number; thinking: number; wiki: number; project: number };
   spaces: Space[];
   pathname: string;
+  collapsed: boolean;
+  onToggle: () => void;
 }
 
 const layers = [
-  { id: "inbox", href: "/inbox", label: "Inbox", glyph: "\u2709", countKey: "inbox" as const },
+  { id: "inbox", href: "/inbox", label: "Inbox", glyph: "✉", countKey: "inbox" as const },
   { id: "thinking", href: "/thinking", label: "Thinking Space", glyph: "T", countKey: "thinking" as const },
   { id: "wiki", href: "/wiki", label: "Wiki", glyph: "W", countKey: "wiki" as const },
   { id: "project", href: "/project", label: "Project", glyph: "P", countKey: "project" as const },
@@ -23,8 +25,43 @@ const projects = [
   { id: "p2", label: "Essay: Proxy collapse" },
 ];
 
-export function Sidebar({ counts, spaces, pathname }: SidebarProps) {
+export function Sidebar({ counts, spaces, pathname, collapsed, onToggle }: SidebarProps) {
   const { open: openCmdK } = useContext(CmdKContext);
+
+  if (collapsed) {
+    return (
+      <aside className="sidebar sidebar-rail" aria-label="Collapsed navigation">
+        <button
+          className="sidebar-toggle"
+          onClick={onToggle}
+          aria-label="Expand sidebar"
+          title="Expand sidebar"
+        >
+          &raquo;
+        </button>
+        <div className="rail-layers">
+          {layers.map((it) => (
+            <Link
+              key={it.id}
+              href={it.href}
+              className={"rail-item" + (pathname.startsWith(it.href) ? " active" : "")}
+              title={it.label}
+            >
+              <span className="glyph">{it.glyph}</span>
+            </Link>
+          ))}
+        </div>
+        <button
+          className="rail-cmdk"
+          onClick={openCmdK}
+          aria-label="Open command palette"
+          title="Quick jump (Cmd+K)"
+        >
+          <kbd>&#8984;K</kbd>
+        </button>
+      </aside>
+    );
+  }
 
   return (
     <aside className="sidebar">
@@ -34,6 +71,14 @@ export function Sidebar({ counts, spaces, pathname }: SidebarProps) {
           <div>Athenaeum</div>
           <small>Knowledge OS</small>
         </div>
+        <button
+          className="sidebar-toggle"
+          onClick={onToggle}
+          aria-label="Collapse sidebar"
+          title="Collapse sidebar"
+        >
+          &laquo;
+        </button>
       </div>
 
       <div className="nav-section">

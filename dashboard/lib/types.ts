@@ -14,6 +14,8 @@ export interface NodeSummary {
   edge_count: number;
   tags: string[];
   section?: string;
+  source?: string;
+  raw_url?: string;
 }
 
 export interface NodeDetail extends NodeSummary {

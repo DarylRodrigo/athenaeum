@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T17:00:05.783660+00:00",
+  "rebuilt_at": "2026-05-09T17:04:58.266418+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -83,12 +83,12 @@
       "outbound": [],
       "inbound": []
     },
-    "i-164905-agent": {
+    "i-170458-twitter": {
       "type": "inbox",
       "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/164905_agent.md",
-      "title": "from a bot agent",
-      "created": "2026-05-09T16:49:05.704400+00:00",
+      "path": "knowledge-db/inbox/2026/05/09/170458_twitter.md",
+      "title": "Test for routing flow",
+      "created": "2026-05-09T17:04:58.260331+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -687,7 +687,7 @@
     "i-190754-test",
     "i-140000-substack",
     "i-170005-substack",
-    "i-164905-agent",
+    "i-170458-twitter",
     "i-164904-agent",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",

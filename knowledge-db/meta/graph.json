@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T16:49:05.710324+00:00",
+  "rebuilt_at": "2026-05-09T16:49:06.644829+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -199,6 +199,22 @@
       ],
       "inbound": []
     },
+    "t-smoke-test-thought": {
+      "type": "thought",
+      "spaces": [
+        "ai-research"
+      ],
+      "path": "knowledge-db/thinking/ai-research/t-smoke-test-thought.md",
+      "title": "Smoke test thought",
+      "created": "2026-05-09T16:49:06.640592+00:00",
+      "outbound": [
+        {
+          "to": "t-rlhf-reward-hacking",
+          "kind": "extends"
+        }
+      ],
+      "inbound": []
+    },
     "t-rlhf-reward-hacking": {
       "type": "thought",
       "spaces": [
@@ -218,6 +234,10 @@
         }
       ],
       "inbound": [
+        {
+          "from": "t-smoke-test-thought",
+          "kind": "extends"
+        },
         {
           "from": "t-constitutional-ai-proxy",
           "kind": "extends"
@@ -546,6 +566,10 @@
         "m-proxy-not-target"
       ],
       [
+        "t-smoke-test-thought",
+        "t-rlhf-reward-hacking"
+      ],
+      [
         "t-constitutional-ai-proxy",
         "t-rlhf-reward-hacking"
       ],
@@ -609,6 +633,7 @@
       "w-rlhf",
       "w-proxy-target-collapse",
       "t-markets-aggregate-priors",
+      "t-smoke-test-thought",
       "t-rlhf-reward-hacking",
       "t-constitutional-ai-proxy",
       "m-proxy-not-target",

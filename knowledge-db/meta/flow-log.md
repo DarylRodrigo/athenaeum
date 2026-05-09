@@ -1,5 +1,7 @@
 ## 2026-05-09
 
+- **16:49** — capture: Captured from agent
+
 - **16:49** — capture: Captured from cli
 
 # Flow Log

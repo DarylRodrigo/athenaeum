@@ -17,6 +17,10 @@ dependencies = [
     "python-dotenv>=1.0.0",
 ]
 
+[project.scripts]
+ath = "athenaeum_server.cli.main:cli"
+athenaeum = "athenaeum_server.cli.main:cli"
+
 [project.optional-dependencies]
 dev = [
     "pytest>=8.0.0",

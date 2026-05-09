@@ -6,7 +6,7 @@ from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 
 from athenaeum_server.lib import frontmatter
-from athenaeum_server.lib.git_ops import commit
+from athenaeum_server.lib.git_ops import append_flow_log, commit
 from athenaeum_server.lib.nodes import list_nodes, read_node
 
 router = APIRouter(prefix="/api/projects", tags=["projects"])
@@ -111,6 +111,11 @@ def append_journal_entry(node_id: str, req: JournalEntryRequest, request: Reques
     existing = journal_path.read_text(encoding="utf-8") if journal_path.exists() else ""
     journal_path.write_text(entry.strip() + "\n\n" + existing, encoding="utf-8")
 
-    commit_hash = commit(config.repo_path, [journal_path], f"journal: {node_id} entry {date_str}")
+    meta_dir = config.resolve_path(config.paths.meta)
+    flow_path = append_flow_log(meta_dir, "journal", f"Journal entry added to {node_id}")
+    commit_hash = commit(config.repo_path, [journal_path, flow_path], f"journal: {node_id} entry {date_str}")
+
+    if hasattr(request.app.state, "push_debouncer"):
+        request.app.state.push_debouncer.schedule()
 
     return {"project": node_id, "date": date_str, "commit": commit_hash}

@@ -5,7 +5,8 @@ from fastapi import APIRouter, HTTPException, Request
 from pydantic import BaseModel
 
 from athenaeum_server.lib import frontmatter
-from athenaeum_server.lib.git_ops import commit
+from athenaeum_server.lib.git_ops import append_flow_log, commit
+from athenaeum_server.lib.graph import rebuild, write_index
 from athenaeum_server.lib.nodes import list_nodes, read_node, resolve_path
 
 router = APIRouter(prefix="/api/inbox", tags=["inbox"])
@@ -67,7 +68,17 @@ def capture(req: CaptureRequest, request: Request):
         body += f"\n\n*{meta_str}*"
 
     frontmatter.write(file_path, fm, body)
-    commit_hash = commit(config.repo_path, [file_path], f"inbox: capture from {req.source}")
+
+    # Rebuild graph, append flow log, commit together
+    graph_data = rebuild(config)
+    graph_path = write_index(config, graph_data)
+    meta_dir = config.resolve_path(config.paths.meta)
+    flow_path = append_flow_log(meta_dir, "capture", f"Captured from {req.source}")
+    commit_hash = commit(config.repo_path, [file_path, graph_path, flow_path], f"inbox: capture from {req.source}")
+
+    # Schedule push
+    if hasattr(request.app.state, "push_debouncer"):
+        request.app.state.push_debouncer.schedule()
 
     return {"id": node_id, "path": str(file_path.relative_to(config.repo_path)), "commit": commit_hash}
 

@@ -60,6 +60,16 @@ def resolve_path(node_id: str, config: Config) -> Path | None:
     for match in base.rglob(f"{node_id}.md"):
         return match
 
+    # Fallback: filename doesn't match id (e.g. inbox files named by timestamp).
+    # Scan frontmatter of every .md file under base.
+    for match in base.rglob("*.md"):
+        try:
+            node = frontmatter.read(match)
+            if node.id == node_id:
+                return match
+        except Exception:
+            continue
+
     return None
 
 
@@ -110,6 +120,10 @@ def list_nodes(
     md_files = _walk_md_files(base)
 
     for path in md_files:
+        # Skip archive subdirectory (deleted/triaged items).
+        if "_archive" in path.parts:
+            continue
+
         # For projects, only consider README.md files.
         if node_type == "project" and path.name != "README.md":
             continue

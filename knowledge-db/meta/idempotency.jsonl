@@ -1,0 +1,3 @@
+{"key": "smoke-batch-1", "at": "2026-05-09T16:49:05.148603+00:00", "result": {"id": "i-164904-agent", "path": "knowledge-db/inbox/2026/05/09/164904_agent.md", "commit": "e3bddb16a0444f61f0f4e078b6e08e06fcb2cf07", "deduplicated": false}}
+{"key": "smoke-batch-2", "at": "2026-05-09T16:49:05.303357+00:00", "result": {"id": "i-164905-agent", "path": "knowledge-db/inbox/2026/05/09/164905_agent.md", "commit": "7f1fa95f9829472bb2f0a2caa8ef62127aee7eda", "deduplicated": false}}
+{"key": "smoke-think-1", "at": "2026-05-09T16:49:06.767740+00:00", "result": {"id": "t-smoke-test-thought", "path": "knowledge-db/thinking/ai-research/t-smoke-test-thought.md", "commit": "8f6a703c4d46d67cc794194ece1cacb8ae88a3fe", "deduplicated": false}}

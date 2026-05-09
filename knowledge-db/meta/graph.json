@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-09T16:49:06.644829+00:00",
+  "rebuilt_at": "2026-05-09T16:51:22.216830+00:00",
   "nodes": {
     "i-193756-final": {
       "type": "inbox",
@@ -92,12 +92,12 @@
       "outbound": [],
       "inbound": []
     },
-    "i-164904-cli": {
+    "i-165122-test": {
       "type": "inbox",
       "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/09/164904_cli.md",
-      "title": "CLI smoke test capture",
-      "created": "2026-05-09T16:49:04.151040+00:00",
+      "path": "knowledge-db/inbox/2026/05/09/165122_test.md",
+      "title": "Will be routed",
+      "created": "2026-05-09T16:51:22.205807+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -664,7 +664,7 @@
     "i-140000-substack",
     "i-164905-agent",
     "i-164904-agent",
-    "i-164904-cli",
+    "i-165122-test",
     "meta-reading-list",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf"

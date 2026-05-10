@@ -2,6 +2,10 @@
 
 - **11:59** — capture: Captured from github
 
+- **11:59** — capture: Captured from arxiv
+
+- **11:59** — capture: Captured from github
+
 - **11:59** — capture: Captured from website
 
 - **11:59** — capture: Captured from blog

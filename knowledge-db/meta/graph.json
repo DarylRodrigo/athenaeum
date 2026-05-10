@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:52.397789+00:00",
+  "rebuilt_at": "2026-05-10T11:59:52.428481+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -566,8 +566,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/115952_github.md",
-      "title": "Recursive Language Models (RLMs): plug-and-play library for near-infinite contex",
-      "created": "2026-05-10T11:59:52.362030+00:00",
+      "title": "SkillNet: open-source platform for AI agent skills (like npm for AI capabilities",
+      "created": "2026-05-10T11:59:52.393737+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -613,6 +613,15 @@
       "path": "knowledge-db/inbox/2026/05/10/115952_blog.md",
       "title": "Research-driven agents - SkyPilot blog",
       "created": "2026-05-10T11:59:52.350347+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-115952-arxiv": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115952_arxiv.md",
+      "title": "Recursive Language Models paper (Zhang, Kraska, Khattab · MIT CSAIL)",
+      "created": "2026-05-10T11:59:52.389117+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -818,6 +827,7 @@
     "i-115916-twitter",
     "i-115925-twitter",
     "i-115952-blog",
+    "i-115952-arxiv",
     "i-115952-substack"
   ]
 }

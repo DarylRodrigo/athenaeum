@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:16.882272+00:00",
+  "rebuilt_at": "2026-05-10T11:59:16.935642+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -566,8 +566,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/115916_twitter.md",
-      "title": "Reading list / learning resources",
-      "created": "2026-05-10T11:59:16.840278+00:00",
+      "title": "Added by Daryl",
+      "created": "2026-05-10T11:59:16.907533+00:00",
       "outbound": [],
       "inbound": []
     },

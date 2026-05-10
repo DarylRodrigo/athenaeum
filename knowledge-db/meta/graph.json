@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:32.180215+00:00",
+  "rebuilt_at": "2026-05-10T11:59:32.231629+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -566,8 +566,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/115932_twitter.md",
-      "title": "Tweet by shivsakhuja",
-      "created": "2026-05-10T11:59:32.160731+00:00",
+      "title": "Interesting tweet by jayagup10",
+      "created": "2026-05-10T11:59:32.222565+00:00",
       "outbound": [],
       "inbound": []
     },

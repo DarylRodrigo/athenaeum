@@ -1,5 +1,9 @@
 ## 2026-05-10
 
+- **11:59** — capture: Captured from blog
+
+- **11:59** — capture: Captured from substack
+
 - **11:59** — capture: Captured from twitter
 
 - **11:59** — capture: Captured from twitter

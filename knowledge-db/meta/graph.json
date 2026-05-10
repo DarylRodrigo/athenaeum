@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:32.238365+00:00",
+  "rebuilt_at": "2026-05-10T11:59:52.380608+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -562,6 +562,24 @@
         }
       ]
     },
+    "i-115952-github": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115952_github.md",
+      "title": "Recursive Language Models (RLMs): plug-and-play library for near-infinite contex",
+      "created": "2026-05-10T11:59:52.362030+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-115952-website": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115952_website.md",
+      "title": "LeWorldModel: compact JEPA-based world model, trains from pixels with 2 loss ter",
+      "created": "2026-05-10T11:59:52.363591+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115932-twitter": {
       "type": "inbox",
       "spaces": [],
@@ -586,6 +604,24 @@
       "path": "knowledge-db/inbox/2026/05/10/115925_twitter.md",
       "title": "Tweet by lunarresearcher",
       "created": "2026-05-10T11:59:25.610167+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-115952-blog": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115952_blog.md",
+      "title": "Research-driven agents - SkyPilot blog",
+      "created": "2026-05-10T11:59:52.350347+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-115952-substack": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115952_substack.md",
+      "title": "AI research notes by youssefhosni95",
+      "created": "2026-05-10T11:59:52.336559+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -776,8 +812,12 @@
     "s-170458-twitter",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
+    "i-115952-github",
+    "i-115952-website",
     "i-115932-twitter",
     "i-115916-twitter",
-    "i-115925-twitter"
+    "i-115925-twitter",
+    "i-115952-blog",
+    "i-115952-substack"
   ]
 }

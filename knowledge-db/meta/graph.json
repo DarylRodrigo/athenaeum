@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:01:13.097350+00:00",
+  "rebuilt_at": "2026-05-10T12:01:26.398770+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -634,6 +634,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-120126-x": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120126_x.md",
+      "title": "Reference for memory/orchestration ideas - atenov_d",
+      "created": "2026-05-10T12:01:26.376381+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115952-substack": {
       "type": "inbox",
       "spaces": [],
@@ -847,6 +856,7 @@
     "i-115925-twitter",
     "i-115952-blog",
     "i-115952-arxiv",
+    "i-120126-x",
     "i-115952-substack",
     "i-120113-x"
   ]

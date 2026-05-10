@@ -1,5 +1,7 @@
 ## 2026-05-10
 
+- **11:42** — capture: Captured from note
+
 - **11:42** — archive: Archived i-101700-arxiv
 
 - **11:42** — archive: Archived i-170005-substack

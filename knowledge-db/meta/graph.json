@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:03:08.607225+00:00",
+  "rebuilt_at": "2026-05-10T12:03:13.084240+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -616,6 +616,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-120313-github": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120313_github.md",
+      "title": "oh-my-claudecode: Research findings from Claude Code orchestration - Team-first",
+      "created": "2026-05-10T12:03:13.071935+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115916-twitter": {
       "type": "inbox",
       "spaces": [],
@@ -917,6 +926,7 @@
     "i-115952-github",
     "i-115952-website",
     "i-115932-twitter",
+    "i-120313-github",
     "i-115916-twitter",
     "i-120212-post",
     "i-115952-blog",

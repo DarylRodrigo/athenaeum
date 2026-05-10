@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:02:12.553846+00:00",
+  "rebuilt_at": "2026-05-10T12:02:12.564085+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -620,8 +620,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/120212_post.md",
-      "title": "Steve Yegge tweet - flagged for investigation",
-      "created": "2026-05-10T12:02:12.541799+00:00",
+      "title": "Tweet by shivsakhuja",
+      "created": "2026-05-10T12:02:12.552572+00:00",
       "outbound": [],
       "inbound": []
     },

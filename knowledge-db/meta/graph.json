@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:03:08.551151+00:00",
+  "rebuilt_at": "2026-05-10T12:03:08.607225+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -584,8 +584,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/120308_microblog.md",
-      "title": "Tweet by adiix_official",
-      "created": "2026-05-10T12:03:08.523755+00:00",
+      "title": "Steve Yegge tweet - flagged for investigation",
+      "created": "2026-05-10T12:03:08.593771+00:00",
       "outbound": [],
       "inbound": []
     },

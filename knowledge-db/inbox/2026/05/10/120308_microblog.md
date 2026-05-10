@@ -1,16 +1,17 @@
 ---
-captured_at: '2026-05-10T12:03:08.523755+00:00'
-created: '2026-05-10T12:03:08.523755+00:00'
+captured_at: '2026-05-10T12:03:08.593771+00:00'
+created: '2026-05-10T12:03:08.593771+00:00'
 edges: []
 id: i-120308-microblog
-raw_url: https://x.com/adiix_official/status/2037604599398322682
+raw_url: https://x.com/steve_yegge/status/2047582408799584394
 source: microblog
 spaces: []
 tags:
 - ai
+- important
 type: inbox
 ---
 
-# Tweet by adiix_official
+# Steve Yegge tweet - flagged for investigation
 
-Tweet by adiix_official
+Steve Yegge tweet - flagged for investigation

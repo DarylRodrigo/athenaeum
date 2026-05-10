@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:59.884645+00:00",
+  "rebuilt_at": "2026-05-10T12:01:13.097350+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -643,6 +643,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-120113-x": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120113_x.md",
+      "title": "Open-sourcing learnings and baselines, distributed agent proof - christinetyip",
+      "created": "2026-05-10T12:01:13.087620+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "p-mechanism-spec": {
       "type": "project",
       "spaces": [
@@ -838,6 +847,7 @@
     "i-115925-twitter",
     "i-115952-blog",
     "i-115952-arxiv",
-    "i-115952-substack"
+    "i-115952-substack",
+    "i-120113-x"
   ]
 }

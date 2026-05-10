@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:01:42.109571+00:00",
+  "rebuilt_at": "2026-05-10T12:01:42.197512+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -656,8 +656,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/120142_tweet.md",
-      "title": "Graph-based thinking for agent memory - deronin_",
-      "created": "2026-05-10T12:01:42.095266+00:00",
+      "title": "Reading list / learning resources - manthanguptaa",
+      "created": "2026-05-10T12:01:42.186325+00:00",
       "outbound": [],
       "inbound": []
     },

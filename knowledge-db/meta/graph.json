@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:01:31.818728+00:00",
+  "rebuilt_at": "2026-05-10T12:01:42.105404+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -616,15 +616,6 @@
       "outbound": [],
       "inbound": []
     },
-    "i-115925-twitter": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/10/115925_twitter.md",
-      "title": "Tweet by lunarresearcher",
-      "created": "2026-05-10T11:59:25.610167+00:00",
-      "outbound": [],
-      "inbound": []
-    },
     "i-115952-blog": {
       "type": "inbox",
       "spaces": [],
@@ -658,6 +649,15 @@
       "path": "knowledge-db/inbox/2026/05/10/115952_substack.md",
       "title": "AI research notes by youssefhosni95",
       "created": "2026-05-10T11:59:52.336559+00:00",
+      "outbound": [],
+      "inbound": []
+    },
+    "i-120142-tweet": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120142_tweet.md",
+      "title": "Graph-based thinking for agent memory - deronin_",
+      "created": "2026-05-10T12:01:42.095266+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -863,11 +863,11 @@
     "i-115952-website",
     "i-115932-twitter",
     "i-115916-twitter",
-    "i-115925-twitter",
     "i-115952-blog",
     "i-115952-arxiv",
     "i-120126-x",
     "i-115952-substack",
+    "i-120142-tweet",
     "i-120113-x"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:25.541306+00:00",
+  "rebuilt_at": "2026-05-10T11:59:25.569645+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -575,8 +575,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/115925_twitter.md",
-      "title": "Tweet by gauri__gupta",
-      "created": "2026-05-10T11:59:25.520907+00:00",
+      "title": "Tweet by kevingu",
+      "created": "2026-05-10T11:59:25.553206+00:00",
       "outbound": [],
       "inbound": []
     },

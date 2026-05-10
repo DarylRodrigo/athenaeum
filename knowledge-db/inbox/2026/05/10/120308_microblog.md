@@ -1,9 +1,9 @@
 ---
-captured_at: '2026-05-10T12:03:08.493543+00:00'
-created: '2026-05-10T12:03:08.493543+00:00'
+captured_at: '2026-05-10T12:03:08.523755+00:00'
+created: '2026-05-10T12:03:08.523755+00:00'
 edges: []
 id: i-120308-microblog
-raw_url: https://x.com/kevingu/status/2039843234760073341
+raw_url: https://x.com/adiix_official/status/2037604599398322682
 source: microblog
 spaces: []
 tags:
@@ -11,6 +11,6 @@ tags:
 type: inbox
 ---
 
-# Tweet by kevingu
+# Tweet by adiix_official
 
-Tweet by kevingu
+Tweet by adiix_official

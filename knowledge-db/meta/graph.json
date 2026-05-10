@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:25.639916+00:00",
+  "rebuilt_at": "2026-05-10T11:59:32.180215+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -562,6 +562,15 @@
         }
       ]
     },
+    "i-115932-twitter": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115932_twitter.md",
+      "title": "Tweet by shivsakhuja",
+      "created": "2026-05-10T11:59:32.160731+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115916-twitter": {
       "type": "inbox",
       "spaces": [],
@@ -767,6 +776,7 @@
     "s-170458-twitter",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
+    "i-115932-twitter",
     "i-115916-twitter",
     "i-115925-twitter"
   ]

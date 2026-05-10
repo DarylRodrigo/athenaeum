@@ -1,5 +1,7 @@
 ## 2026-05-10
 
+- **11:47** — capture: Captured from cli
+
 - **11:42** — capture: Captured from note
 
 - **11:42** — archive: Archived i-101700-arxiv

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:02:12.564085+00:00",
+  "rebuilt_at": "2026-05-10T12:02:35.430906+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -643,6 +643,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-120235-social-media": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120235_social-media.md",
+      "title": "Tweet by adiix_official",
+      "created": "2026-05-10T12:02:35.419909+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-120207-social": {
       "type": "inbox",
       "spaces": [],
@@ -893,6 +902,7 @@
     "i-120212-post",
     "i-115952-blog",
     "i-115952-arxiv",
+    "i-120235-social-media",
     "i-120207-social",
     "i-120126-x",
     "i-115952-substack",

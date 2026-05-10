@@ -1,9 +1,9 @@
 ---
-captured_at: '2026-05-10T12:02:35.419909+00:00'
-created: '2026-05-10T12:02:35.419909+00:00'
+captured_at: '2026-05-10T12:02:35.437883+00:00'
+created: '2026-05-10T12:02:35.437883+00:00'
 edges: []
 id: i-120235-social-media
-raw_url: https://x.com/adiix_official/status/2037604599398322682
+raw_url: https://x.com/kevingu/status/2039843234760073341
 source: social-media
 spaces: []
 tags:
@@ -11,6 +11,6 @@ tags:
 type: inbox
 ---
 
-# Tweet by adiix_official
+# Tweet by kevingu
 
-Tweet by adiix_official
+Tweet by kevingu

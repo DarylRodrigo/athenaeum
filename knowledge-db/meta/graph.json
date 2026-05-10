@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:02:58.745592+00:00",
+  "rebuilt_at": "2026-05-10T12:03:08.505137+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -580,6 +580,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-120308-microblog": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120308_microblog.md",
+      "title": "Tweet by kevingu",
+      "created": "2026-05-10T12:03:08.493543+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115952-github": {
       "type": "inbox",
       "spaces": [],
@@ -904,6 +913,7 @@
     "s-kanjun-goodhart-rlhf",
     "i-120131-tweet",
     "i-115959-github",
+    "i-120308-microblog",
     "i-115952-github",
     "i-115952-website",
     "i-115932-twitter",

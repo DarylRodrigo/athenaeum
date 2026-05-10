@@ -1,5 +1,7 @@
 ## 2026-05-10
 
+- **11:42** — archive: Archived i-174138-substack
+
 - **11:42** — archive: Archived i-175312-arxiv
 
 - **11:42** — archive: Archived i-175752-article

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:52.428481+00:00",
+  "rebuilt_at": "2026-05-10T11:59:59.881802+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -562,6 +562,15 @@
         }
       ]
     },
+    "i-115959-github": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115959_github.md",
+      "title": "Recursive Language Models (RLMs): plug-and-play library for near-infinite contex",
+      "created": "2026-05-10T11:59:59.875051+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115952-github": {
       "type": "inbox",
       "spaces": [],
@@ -821,6 +830,7 @@
     "s-170458-twitter",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
+    "i-115959-github",
     "i-115952-github",
     "i-115952-website",
     "i-115932-twitter",

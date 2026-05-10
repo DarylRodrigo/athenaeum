@@ -1,17 +1,17 @@
 ---
-captured_at: '2026-05-10T11:59:25.559792+00:00'
-created: '2026-05-10T11:59:25.559792+00:00'
+captured_at: '2026-05-10T11:59:25.610167+00:00'
+created: '2026-05-10T11:59:25.610167+00:00'
 edges: []
 id: i-115925-twitter
-raw_url: https://x.com/roundtablespace/status/2041421970546528318
+raw_url: https://x.com/lunarresearcher/status/2043330919868621142
 source: twitter
 spaces: []
 tags:
-- roundtable
+- research
 - ai
 type: inbox
 ---
 
-# Tweet by roundtablespace
+# Tweet by lunarresearcher
 
-Tweet by roundtablespace
+Tweet by lunarresearcher

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:01:42.197512+00:00",
+  "rebuilt_at": "2026-05-10T12:02:02.975136+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -670,6 +670,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-120202-social": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120202_social.md",
+      "title": "Tweet by gauri__gupta",
+      "created": "2026-05-10T12:02:02.961968+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "p-mechanism-spec": {
       "type": "project",
       "spaces": [
@@ -868,6 +877,7 @@
     "i-120126-x",
     "i-115952-substack",
     "i-120142-tweet",
-    "i-120113-x"
+    "i-120113-x",
+    "i-120202-social"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:16.935642+00:00",
+  "rebuilt_at": "2026-05-10T11:59:25.541306+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -571,6 +571,15 @@
       "outbound": [],
       "inbound": []
     },
+    "i-115925-twitter": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/115925_twitter.md",
+      "title": "Tweet by gauri__gupta",
+      "created": "2026-05-10T11:59:25.520907+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "p-mechanism-spec": {
       "type": "project",
       "spaces": [
@@ -758,6 +767,7 @@
     "s-170458-twitter",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
-    "i-115916-twitter"
+    "i-115916-twitter",
+    "i-115925-twitter"
   ]
 }

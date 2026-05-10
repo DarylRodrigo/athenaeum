@@ -8,6 +8,8 @@
 
 - **12:02** — capture: Captured from social
 
+- **12:02** — capture: Captured from social
+
 - **12:01** — capture: Captured from tweet
 
 - **12:01** — capture: Captured from tweet

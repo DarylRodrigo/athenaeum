@@ -1,16 +1,17 @@
 ---
-captured_at: '2026-05-10T12:02:35.437883+00:00'
-created: '2026-05-10T12:02:35.437883+00:00'
+captured_at: '2026-05-10T12:02:35.523352+00:00'
+created: '2026-05-10T12:02:35.523352+00:00'
 edges: []
 id: i-120235-social-media
-raw_url: https://x.com/kevingu/status/2039843234760073341
+raw_url: https://x.com/lunarresearcher/status/2043330919868621142
 source: social-media
 spaces: []
 tags:
 - ai
+- research
 type: inbox
 ---
 
-# Tweet by kevingu
+# Tweet by lunarresearcher
 
-Tweet by kevingu
+Tweet by lunarresearcher

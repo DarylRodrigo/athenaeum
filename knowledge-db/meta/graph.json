@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:47:17.249666+00:00",
+  "rebuilt_at": "2026-05-10T11:59:16.727417+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -562,21 +562,12 @@
         }
       ]
     },
-    "i-114717-cli": {
+    "i-115916-twitter": {
       "type": "inbox",
       "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/10/114717_cli.md",
-      "title": "Test capture from the ath CLI to make sure it works end-to-end.",
-      "created": "2026-05-10T11:47:17.239828+00:00",
-      "outbound": [],
-      "inbound": []
-    },
-    "i-114248-note": {
-      "type": "inbox",
-      "spaces": [],
-      "path": "knowledge-db/inbox/2026/05/10/114248_note.md",
-      "title": "Test capture from the deployed Vercel frontend → backend pipeline.",
-      "created": "2026-05-10T11:42:48.046274+00:00",
+      "path": "knowledge-db/inbox/2026/05/10/115916_twitter.md",
+      "title": "Open-sourcing learnings and baselines, distributed agent proof",
+      "created": "2026-05-10T11:59:16.671781+00:00",
       "outbound": [],
       "inbound": []
     },
@@ -767,7 +758,6 @@
     "s-170458-twitter",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
-    "i-114717-cli",
-    "i-114248-note"
+    "i-115916-twitter"
   ]
 }

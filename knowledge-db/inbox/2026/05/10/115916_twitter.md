@@ -1,17 +1,16 @@
 ---
-captured_at: '2026-05-10T11:59:16.671781+00:00'
-created: '2026-05-10T11:59:16.671781+00:00'
+captured_at: '2026-05-10T11:59:16.840278+00:00'
+created: '2026-05-10T11:59:16.840278+00:00'
 edges: []
 id: i-115916-twitter
-raw_url: https://x.com/christinetyip/status/2032415145419264149
+raw_url: https://x.com/manthanguptaa/status/2032464949952598152
 source: twitter
 spaces: []
 tags:
-- open-source
-- distributed-agents
+- learning-resources
 type: inbox
 ---
 
-# Open-sourcing learnings and baselines, distributed agent proof
+# Reading list / learning resources
 
-Open-sourcing learnings and baselines, distributed agent proof
+Reading list / learning resources

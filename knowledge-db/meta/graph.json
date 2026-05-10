@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T11:59:16.727417+00:00",
+  "rebuilt_at": "2026-05-10T11:59:16.839907+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -566,8 +566,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/115916_twitter.md",
-      "title": "Open-sourcing learnings and baselines, distributed agent proof",
-      "created": "2026-05-10T11:59:16.671781+00:00",
+      "title": "Reference for memory/orchestration ideas",
+      "created": "2026-05-10T11:59:16.817746+00:00",
       "outbound": [],
       "inbound": []
     },

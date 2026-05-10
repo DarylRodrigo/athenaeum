@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:01:26.398770+00:00",
+  "rebuilt_at": "2026-05-10T12:01:26.457341+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -638,8 +638,8 @@
       "type": "inbox",
       "spaces": [],
       "path": "knowledge-db/inbox/2026/05/10/120126_x.md",
-      "title": "Reference for memory/orchestration ideas - atenov_d",
-      "created": "2026-05-10T12:01:26.376381+00:00",
+      "title": "Reading list / learning resources - manthanguptaa",
+      "created": "2026-05-10T12:01:26.446125+00:00",
       "outbound": [],
       "inbound": []
     },

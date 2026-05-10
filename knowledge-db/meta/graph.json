@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "rebuilt_at": "2026-05-10T12:01:26.533190+00:00",
+  "rebuilt_at": "2026-05-10T12:01:31.818728+00:00",
   "nodes": {
     "meta-reading-list": {
       "type": "meta",
@@ -562,6 +562,15 @@
         }
       ]
     },
+    "i-120131-tweet": {
+      "type": "inbox",
+      "spaces": [],
+      "path": "knowledge-db/inbox/2026/05/10/120131_tweet.md",
+      "title": "Open-sourcing learnings and baselines, distributed agent proof - christinetyip",
+      "created": "2026-05-10T12:01:31.808349+00:00",
+      "outbound": [],
+      "inbound": []
+    },
     "i-115959-github": {
       "type": "inbox",
       "spaces": [],
@@ -848,6 +857,7 @@
     "s-170458-twitter",
     "s-cowen-stubborn-metrics",
     "s-kanjun-goodhart-rlhf",
+    "i-120131-tweet",
     "i-115959-github",
     "i-115952-github",
     "i-115952-website",

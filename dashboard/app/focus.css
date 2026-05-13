@@ -27,13 +27,172 @@ body[data-focus="1"] .app { grid-template-columns: 1fr; }
   display: block;
 }
 
+/* Minimized-thought dock — bottom-center horizontal chip strip */
+.min-dock {
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 24;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: min(720px, calc(100vw - 580px));
+}
+.min-chip {
+  display: inline-flex;
+  align-items: stretch;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  transition: border-color 120ms, transform 120ms;
+}
+.min-chip:hover { border-color: var(--ink-3); transform: translateY(-1px); }
+.min-chip-body {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 10px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 12.5px;
+  color: var(--ink);
+  max-width: 220px;
+}
+.min-chip-swatch {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.min-chip-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.min-chip-close {
+  border: 0;
+  background: transparent;
+  padding: 0 9px 1px;
+  cursor: pointer;
+  color: var(--ink-4);
+  font-size: 14px;
+  border-left: 1px solid var(--rule-soft);
+}
+.min-chip-close:hover { color: var(--ink); background: var(--highlight); }
+
+/* Clickable legend toggles */
+.legend-toggle {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  transition: color 120ms, background 120ms, opacity 120ms;
+}
+.legend-toggle:hover { background: var(--highlight); color: var(--ink); }
+.legend-toggle.is-off { color: var(--ink-4); opacity: 0.7; }
+.legend-toggle.is-off .line.solid { background: transparent; box-shadow: inset 0 1.5px 0 var(--ink-4); }
+.legend-toggle.is-off .line.dashed { border-top-color: var(--ink-4); }
+
+/* Stats bar — same pattern as legend-toggle but inherits the focus-stats look. */
+.stat-toggle {
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 2px 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--ink-3);
+  font: inherit;
+  letter-spacing: inherit;
+  transition: color 120ms, background 120ms, opacity 120ms;
+}
+.stat-toggle b {
+  color: var(--ink);
+  font-weight: 500;
+  font-family: var(--serif);
+  font-size: 14px;
+  margin-right: 2px;
+}
+.stat-toggle:hover { background: var(--highlight); color: var(--ink); }
+.stat-toggle.is-off { color: var(--ink-4); opacity: 0.6; }
+.stat-toggle.is-off b { color: var(--ink-4); }
+
+/* Hover tooltip over the force-directed graph */
+.graph-tooltip {
+  position: absolute;
+  z-index: 22;
+  pointer-events: none;
+  max-width: 280px;
+  padding: 8px 10px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  box-shadow: var(--shadow-soft);
+}
+.graph-tooltip .gt-title {
+  font-family: var(--serif);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 4px;
+}
+.graph-tooltip .gt-meta {
+  display: flex; align-items: center; gap: 6px;
+  font-family: var(--sans);
+  font-size: 11px;
+  color: var(--ink-3);
+}
+.graph-tooltip .gt-swatch {
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.graph-tooltip .gt-sep {
+  color: var(--ink-4);
+}
+
 /* Floating bars */
 .focus-bar { position: absolute; z-index: 20; display: flex; align-items: center; gap: 10px; }
-.focus-bar-tl { top: 18px; left: 22px; }
-.focus-bar-tc { top: 18px; left: calc((100vw - var(--rail-w, 0px)) / 2); transform: translateX(-50%); transition: left 240ms; }
-.focus-bar-tr { top: 18px; right: calc(var(--rail-w, 0px) + 22px); transition: right 240ms; }
 .focus-bar-bl { bottom: 18px; left: 22px; }
 .focus-bar-bc-stats { bottom: 18px; right: calc(var(--rail-w, 0px) + 22px); transition: right 240ms; }
+
+/* Full-width top bar — brand · search · controls, edge-to-edge */
+.focus-topbar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 22px;
+  pointer-events: none;
+}
+.focus-topbar > * { pointer-events: auto; }
+.focus-topbar .ft-left,
+.focus-topbar .ft-right {
+  display: flex; align-items: center; gap: 10px;
+  flex: 0 0 auto;
+}
+.focus-topbar .ft-center {
+  flex: 1 1 auto;
+  display: flex; justify-content: center;
+  min-width: 0;
+}
+.focus-topbar .focus-search {
+  width: 100%;
+  max-width: 520px;
+}
 
 .focus-brand {
   display: flex; align-items: center; gap: 10px;

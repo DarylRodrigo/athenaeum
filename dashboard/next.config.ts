@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/api/:path*",
-        destination: "http://localhost:7878/api/:path*",
+        destination: "https://rodbachler.com/api/:path*",
       },
     ];
   },
